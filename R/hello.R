@@ -20,3 +20,7 @@ hello <- function() {
 hello < -function(){
   print("hello world!")
 }
+
+hi = function(){
+  print("hi")
+}
