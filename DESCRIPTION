@@ -1,4 +1,4 @@
-Package: KernelQuantileReg
+Package: KQReg
 Title: Kernel Ridge Regression Esimation
 Version: 0.1.0
 Authors@R: c(

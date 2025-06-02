@@ -1,1 +1,9 @@
-exportPattern("^[[:alpha:]]+")
+export(l2norm )
+export(gaussian_kernel )
+export(poly_kernel)
+export(rad_kernel)
+export(create_kernel_mat )
+export(rho_tau )
+export(predict_kqr)
+
+import(ggplot2)
