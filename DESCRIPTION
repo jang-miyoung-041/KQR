@@ -1,16 +1,19 @@
-Package: krr
-Type: Package
-Title: What the Package Does (Title Case)
+Package: KernelQuantileReg
+Title: Kernel Ridge Regression Esimation
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Miyoung", "Jang",
+      email = "miyoung9072@gmail.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Fitting a regression quantile estimator based on Kernel.
+License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    ggplot2
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
