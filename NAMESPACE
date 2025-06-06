@@ -1,4 +1,4 @@
-export(create_kernel_mat )
+export(create_kernel_mat)
 export(rho_tau )
 export(fit_kqr_lp)
 export(predict_kqr)
