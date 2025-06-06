@@ -25,8 +25,8 @@ The goal of BsplineReg is to fit a regression spline estimator based on a set of
 You can install the development version of BsplineReg from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("kybak90/BsplineReg")
+# install.packages("jang")
+jang::jang("jang-miyoung-041/KQR")
 ```
 
 ## Example

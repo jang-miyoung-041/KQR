@@ -1,9 +1,8 @@
-export(l2norm )
-export(gaussian_kernel )
-export(poly_kernel)
-export(rad_kernel)
 export(create_kernel_mat )
 export(rho_tau )
+export(fit_kqr_lp)
 export(predict_kqr)
+export(plot_kqr)
 
 import(ggplot2)
+import(lpsolve)
