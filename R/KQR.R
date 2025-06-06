@@ -179,7 +179,7 @@ plot_kqr <- function(x_train, y_train, x_grid, taus = c(0.1, 0.5, 0.9),
   
   for (tau in taus) {
     K <- create_kernel_mat(x_train, kernel = kernel, rho = rho, degree = degree, sigma2 = sigma2)
-    fit <- fit_kqr_no_intercept(K, y_train, tau = tau, lambda = lambda)
+    fit <- fit_kqr_lp(K, y_train, tau = tau, lambda = lambda)
     
     K_pred <- create_kernel_mat2(x_grid, x_train, kernel = kernel, rho = rho, degree = degree, sigma2 = sigma2)
     y_hat <- (1 / lambda) * K_pred %*% fit$theta
